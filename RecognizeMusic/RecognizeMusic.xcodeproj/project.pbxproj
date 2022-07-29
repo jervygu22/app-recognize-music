@@ -13,6 +13,7 @@
 		421641012893765400B74057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421640FF2893765400B74057 /* Main.storyboard */; };
 		421641032893765600B74057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421641022893765600B74057 /* Assets.xcassets */; };
 		421641062893765600B74057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421641042893765600B74057 /* LaunchScreen.storyboard */; };
+		4216411428937EBE00B74057 /* godsplan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4216411328937EBE00B74057 /* godsplan.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		421641022893765600B74057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		421641052893765600B74057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		421641072893765600B74057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4216411328937EBE00B74057 /* godsplan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = godsplan.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,48 @@
 		421640F82893765400B74057 /* RecognizeMusic */ = {
 			isa = PBXGroup;
 			children = (
-				421640F92893765400B74057 /* AppDelegate.swift */,
-				421640FB2893765400B74057 /* SceneDelegate.swift */,
-				421640FD2893765400B74057 /* ViewController.swift */,
-				421640FF2893765400B74057 /* Main.storyboard */,
-				421641022893765600B74057 /* Assets.xcassets */,
-				421641042893765600B74057 /* LaunchScreen.storyboard */,
+				4216411328937EBE00B74057 /* godsplan.mp3 */,
+				4216410F2893774E00B74057 /* Resources */,
+				421641122893776D00B74057 /* Controllers */,
+				421641102893775C00B74057 /* Views */,
 				421641072893765600B74057 /* Info.plist */,
 			);
 			path = RecognizeMusic;
+			sourceTree = "<group>";
+		};
+		4216410F2893774E00B74057 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				421640F92893765400B74057 /* AppDelegate.swift */,
+				421640FB2893765400B74057 /* SceneDelegate.swift */,
+				421641022893765600B74057 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		421641102893775C00B74057 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				421641112893776200B74057 /* StoryBoards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		421641112893776200B74057 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				421640FF2893765400B74057 /* Main.storyboard */,
+				421641042893765600B74057 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		421641122893776D00B74057 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				421640FD2893765400B74057 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +162,7 @@
 			files = (
 				421641062893765600B74057 /* LaunchScreen.storyboard in Resources */,
 				421641032893765600B74057 /* Assets.xcassets in Resources */,
+				4216411428937EBE00B74057 /* godsplan.mp3 in Resources */,
 				421641012893765400B74057 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +332,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +362,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
